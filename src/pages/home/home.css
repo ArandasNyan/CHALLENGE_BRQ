@@ -922,6 +922,22 @@ a {
     color: var(--carolina-blue);
 }
 
+/*-----------------------------------*\
+            #SCROLL BAR
+\*-----------------------------------*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--alice-blue-1);
+}
+
+::-webkit-scrollbar-thumb {
+    border: none;
+    border-radius: 50px;
+}
+
 
 /*-----------------------------------*\
             #MEDIA QUERIES
