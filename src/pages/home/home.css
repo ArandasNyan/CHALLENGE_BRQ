@@ -7,7 +7,7 @@
     --lavender-blush: hsl(336, 35%, 92%);
     --carolina-blue: hsl(204, 91%, 53%);
     --columbia-blue: hsl(204, 92%, 90%);
-    --alice-blue-1: hsl(216, 38%, 95%);
+    --alice-blue-1: rgb(237, 241, 247);
     --alice-blue-2: hsl(216, 75%, 97%);
     --alice-blue-3: hsl(216, 38%, 95%);
     --alice-blue-4: hsl(217, 33%, 92%);
@@ -267,12 +267,13 @@ a {
 }
 
 .header {
-    background: var(--alice-blue-1);
+    background: rgba(237, 241, 247, 0.7);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     transition: var(--transition);
+    backdrop-filter: blur(50px);
     z-index: 4;
 }
 
