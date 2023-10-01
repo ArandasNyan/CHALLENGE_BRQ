@@ -1,0 +1,96 @@
+{
+    "users": [
+        {
+            "nome_usuario": "Exemplo de Nome",
+            "email_usuario": "exemplo@email.com",
+            "senha_usuario": "senha123",
+            "token_sessao_usuario": "token-unico-123",
+            "pagamento": {
+                "forma_de_pagamento": "cartao_de_credito",
+                "validade_do_item": "12/25",
+                "cvc_do_item": "123",
+                "nome_do_titular": "Nome do Titular",
+                "data_de_nascimento_do_titular": "01/01/1990",
+                "endereco_do_titular": {
+                    "numero": "123",
+                    "rua": "Rua Exemplo",
+                    "bairro": "Bairro Exemplo",
+                    "cep": "12345-678",
+                    "estado": "Estado Exemplo",
+                    "pais_de_nacionalidade": "Pais Exemplo"
+                },
+                "numero_de_telefone": "+55 12 3456-7890"
+            },
+            "itens_adicionados_ao_favorito": [
+                {
+                    "id_item": 1,
+                    "nome_item": "Item Favorito 1"
+                },
+                {
+                    "id_item": 2,
+                    "nome_item": "Item Favorito 2"
+                }
+            ],
+            "itens_alugados": [
+                {
+                    "id_item": 3,
+                    "nome_item": "Item Alugado 1",
+                    "data_inicio_aluguel": "01/10/2023",
+                    "data_fim_aluguel": "10/10/2023"
+                },
+                {
+                    "id_item": 4,
+                    "nome_item": "Item Alugado 2",
+                    "data_inicio_aluguel": "05/10/2023",
+                    "data_fim_aluguel": "15/10/2023"
+                }
+            ]
+        },
+        {
+            "nome_usuario": "Exemplo de Nome",
+            "email_usuario": "exemplo@email.com",
+            "senha_usuario": "senha123",
+            "token_sessao_usuario": "token-unico-123",
+            "pagamento": {
+                "forma_de_pagamento": "cartao_de_credito",
+                "validade_do_item": "12/25",
+                "cvc_do_item": "123",
+                "nome_do_titular": "Nome do Titular",
+                "data_de_nascimento_do_titular": "01/01/1990",
+                "endereco_do_titular": {
+                    "numero": "123",
+                    "rua": "Rua Exemplo",
+                    "bairro": "Bairro Exemplo",
+                    "cep": "12345-678",
+                    "estado": "Estado Exemplo",
+                    "pais_de_nacionalidade": "Pais Exemplo"
+                },
+                "numero_de_telefone": "+55 12 3456-7890"
+            },
+            "itens_adicionados_ao_favorito": [
+                {
+                    "id_item": 1,
+                    "nome_item": "Item Favorito 1"
+                },
+                {
+                    "id_item": 2,
+                    "nome_item": "Item Favorito 2"
+                }
+            ],
+            "itens_alugados": [
+                {
+                    "id_item": 3,
+                    "nome_item": "Item Alugado 1",
+                    "data_inicio_aluguel": "01/10/2023",
+                    "data_fim_aluguel": "10/10/2023"
+                },
+                {
+                    "id_item": 4,
+                    "nome_item": "Item Alugado 2",
+                    "data_inicio_aluguel": "05/10/2023",
+                    "data_fim_aluguel": "15/10/2023"
+                }
+            ]
+        }
+    ]
+}

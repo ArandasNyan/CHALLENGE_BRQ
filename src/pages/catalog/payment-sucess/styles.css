@@ -11,7 +11,7 @@
     --alice-blue-2: hsl(216, 75%, 97%);
     --alice-blue-3: hsl(216, 38%, 95%);
     --alice-blue-4: hsl(217, 33%, 92%);
-    --independence: hsl(220, 21%, 39%);
+    --independence: hsl(219, 21%, 39%);
     --deep-cerise: hsl(329, 63%, 52%);
     --eerie-black: hsl(210, 11%, 15%);
     --space-cadet: hsl(240, 22%, 25%);
@@ -156,7 +156,10 @@ body {
   \*-----------------------------------*/
 
 .container {
-    padding-inline: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .path-1 {
@@ -179,6 +182,14 @@ body {
     background: var(--slate-blue) !important;
 }
 
+.user-name {
+    font-size: var(--fs-5);
+}
+
+.agradecimentos {
+    width: 100% !important;
+}
+
 button,
 a {
     transition: var(--transition);
@@ -186,13 +197,15 @@ a {
 
 .btn {
     position: relative;
-    background: var(--background, var(--carolina-blue));
+    background: var(--background, var(--medium-sea-green));
     color: var(--color, var(--white));
     min-width: var(--width, 40px);
     min-height: var(--height, 40px);
-    padding: 5px;
-    display: grid;
-    place-items: center;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     border-radius: var(--radius-14);
     font-family: var(--ff-nunito);
     font-size: var(--fs-6);
@@ -1016,7 +1029,6 @@ a {
         --fs-1: 2.625rem;
 
     }
-
     /**
      * REUSED STYLE
      */
@@ -1024,7 +1036,6 @@ a {
     .container {
         max-width: 720px;
     }
-
     /**
      * HEADER
      */
@@ -1084,7 +1095,7 @@ a {
 
     .hero-banner {
         display: block;
-        background: url("../../assets/models/BMW-Série-3.jpg") no-repeat;
+        background: url("../../assets/negocio/vendedores.jpg") no-repeat;
         background-size: cover;
         background-position: left;
         position: absolute;
@@ -1152,7 +1163,6 @@ a {
     .container {
         max-width: 960px;
     }
-
     /**
      * HERO
      */
@@ -1160,7 +1170,6 @@ a {
     .hero .container {
         width: 100%;
     }
-
     /**
      * BLOG
      */
@@ -1172,7 +1181,6 @@ a {
     .blog .has-scrollbar>li {
         max-width: 450px;
     }
-
     /**
      * FOOTER
      */

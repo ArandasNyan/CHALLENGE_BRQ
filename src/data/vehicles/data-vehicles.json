@@ -1,0 +1,27 @@
+{
+    "fabricantes": [
+        {
+            "name": "Toyota",
+            "vehicles": [
+                {
+                    "image": "Volkswagen-Jetta-2024.jpg",
+                    "name": "Jetta GLI",
+                    "year-model": 2023,
+                    "amount-people": 5,
+                    "type-fuel": "Híbrido",
+                    "perfomance": "8.1kmH / 1-litro",
+                    "car-value": 530
+                },
+                {
+                    "image": "Volkswagen-Jetta-2024.jpg",
+                    "name": "Jetta GLI",
+                    "year-model": 2023,
+                    "amount-people": 5,
+                    "type-fuel": "Híbrido",
+                    "perfomance": "8.1kmH / 1-litro",
+                    "car-value": 530
+                }
+            ]
+        }
+    ]
+}

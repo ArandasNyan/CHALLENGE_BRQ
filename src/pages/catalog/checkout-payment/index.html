@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form>
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Endereço e usuário</h3>
+                    <div class="inputBox">
+                        <span>Nome Completo</span>
+                        <input type="text" placeholder="Arandas Vieira">
+                    </div>
+                    <div class="inputBox">
+                        <span>E-mail</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>Endereço</span>
+                        <input type="text" placeholder="Rua Forte de Trindade, 369. Jardim Iporã">
+                    </div>
+                    <div class="inputBox">
+                        <span>Cidade</span>
+                        <input type="text" placeholder="São paulo">
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Estado</span>
+                            <input type="text" placeholder="São Paulo">
+                        </div>
+                        <div class="inputBox">
+                            <span>Cep</span>
+                            <input type="text" placeholder="04866-210">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="title">Forma de Pagamento</h3>
+                    <div class="inputBox">
+                        <span>Cartões Aceitos</span>
+                        <img src="images/card_img.png" alt="imagem de cartões aceitos pela locadora">
+                    </div>
+                    <div class="inputBox">
+                        <span>Nome do Titular</span>
+                        <input type="text" placeholder="Seu nome aqui">
+                    </div>
+                    <div class="inputBox">
+                        <span>Número do Cartão</span>
+                        <input type="text" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>Mês do cartão</span>
+                        <input type="text" placeholder="Mês">
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Ano</span>
+                            <input type="month" min="2023-10" max="2034-12" placeholder="2022">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="Finalizar a compra" class="submit-btn success">
+        </form>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
