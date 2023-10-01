@@ -168,7 +168,7 @@ body {
 }
 
 .repair {
-    background: var(--color) !important;
+    background: var(--red-salsa) !important;
 }
 
 .company {
@@ -176,7 +176,7 @@ body {
 }
 
 .cars {
-    background: var(--medium-sea-green) !important;
+    background: var(--slate-blue) !important;
 }
 
 button,
